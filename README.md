@@ -1,6 +1,6 @@
 # electron-quickstart-mas
 
-**Build a Hello-World app for the Mac App Store.**
+**Starter app to test building for the Mac App Store.**
 
 This is the electron-quick-start app (see https://github.com/electron/electron-quick-start) set up to be built for the Mac App Store. 
 
