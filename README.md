@@ -4,7 +4,7 @@
 
 This is the electron-quick-start app (see https://github.com/electron/electron-quick-start) set up to be built for the Mac App Store. 
 
-This app goes along with the tutorial https://techandstartup.com/tutorials/release-electron-app-on-mac-app-store
+This app goes along with the tutorial https://www.techandstartup.com/tutorials/release-electron-app-on-mac-app-store
 
 **Steps to build this app for the mac app store:**
 
