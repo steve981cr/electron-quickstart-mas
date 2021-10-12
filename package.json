@@ -12,7 +12,7 @@
   "author": "YOUR NAME",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^6.1.7",
+    "electron": "^11.5.0",
     "electron-builder": "^22.3.2"
   },
   "build": {
