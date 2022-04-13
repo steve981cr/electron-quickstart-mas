@@ -4,31 +4,31 @@
   "description": "A minimal Electron application to test MAS builds",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "watch": "nodemon --exec 'electron .'"
+    "start": "electron ."
   },
   "repository": "https://github.com/steve981cr/electron-quickstart-mas",
   "keywords": ["Electron", "mas"],
   "author": "YOUR NAME",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^6.1.7",
-    "electron-builder": "^22.3.2"
+    "electron": "^17.1.2",
+    "electron-builder": "^22.14.13"
   },
   "build": {
     "appId": "com.domainname.appname",
     "buildVersion": "1",
     "productName": "Quickstart-mas",
-    "copyright": "Copyright © 2020 YOUR NAME HERE",
+    "copyright": "Copyright © 2022 YOUR NAME HERE",
     "mac": {
       "target": "mas",
+      "type": "distribution",
       "hardenedRuntime": false,
       "gatekeeperAssess": false,
       "category": "public.app-category.education",
       "icon": "build/icon.icns",
       "entitlements": "build/entitlements.mas.plist",
       "entitlementsInherit": "build/entitlements.mas.inherit.plist",
-      "provisioningProfile": "MacAppStore.provisionprofile"
+      "provisioningProfile": "build/MacAppStore.provisionprofile"
     }
   },
   "dependencies": {}
