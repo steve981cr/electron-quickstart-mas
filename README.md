@@ -15,7 +15,7 @@ This app goes along with the tutorial https://www.techandstartup.com/tutorials/r
 - In the package.json file at a minimum change the name and appId properties to your information.
 - Build the app for the mac app store: `electron-builder --mac`
 
-**To build a Development version of this app (for testing) make the following changes:
+**To build a Development version of this app (for testing) make the following changes:**
 
 - Add your own AppleDevelopment.provisionprofile to the build directory.
 - Make the following changes to the package.json file:
